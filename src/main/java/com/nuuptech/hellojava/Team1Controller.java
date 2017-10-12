@@ -58,7 +58,9 @@ public class Team1Controller extends HttpServlet {
     String reto1(String entrada) {
         String salida = "NotImplementedYet";
         //TODO
-        return salida;
+        int constante = 3600;
+        double segundos = Double.parseDouble(entrada) * constante;
+        return ""+segundos;
     }
     String reto2(String entrada) {
         String salida = "NotImplementedYet";
