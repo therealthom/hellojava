@@ -58,34 +58,16 @@ public class Team1Controller extends HttpServlet {
     String reto1(String entrada) {
         String salida = "NotImplementedYet";
         //TODO
-        double segundos = Double.parseDouble(entrada) * 3600;
-        
-        return "" + segundos;
+        return salida;
     }
     String reto2(String entrada) {
         String salida = "NotImplementedYet";
         //TODO
-        double numero = Double.parseDouble(entrada);
-        
-        if (numero > 0) {
-            salida = "Es positivo";
-        } else if (numero < 0) {
-            salida = "Es negativo";
-        } else {
-            salida = "Es neutro";
-        }
         return salida;
     }
     String reto3(String entrada) {
         String salida = "NotImplementedYet";
-        String[] tokens = entrada.split(" ");
-        double num1 = Double.parseDouble(tokens[0]);
-        double num2 = Double.parseDouble(tokens[1]);
-        if (num1 < num2) {
-            salida = ""+num2;
-        } else {
-            salida = ""+num1;
-        }
+        //TODO
         return salida;
     }
 

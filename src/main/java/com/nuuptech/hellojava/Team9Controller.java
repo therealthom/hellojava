@@ -30,18 +30,28 @@ public class Team9Controller extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        String entrada = request.getParameter("entrada");
+        
+        String entrada1 = request.getParameter("entrada1");
+        String entrada2 = request.getParameter("entrada2");
+        String entrada3 = request.getParameter("entrada3");
                 
         //Agrega la magia!       
-        String resultado = reto1(entrada);
-        //String resultado = reto2(entrada);
-        //String resultado = reto3(entrada);
+        String resultado1 = reto1(entrada1);
+        String resultado2 = reto2(entrada2);
+        String resultado3 = reto3(entrada3);
         
         //Fin de la magia        
-        System.out.println("Entrada -> " + entrada);
-        System.out.println("Resultado -> " + resultado);
+        System.out.println("Entrada1 -> " + entrada1);
+        System.out.println("Entrada2 -> " + entrada2);
+        System.out.println("Entrada3 -> " + entrada3);
         
-        request.setAttribute("result", resultado);
+        System.out.println("Resultado1 -> " + resultado1);
+        System.out.println("Resultado2 -> " + resultado2);
+        System.out.println("Resultado3 -> " + resultado3);
+        
+        request.setAttribute("result1", resultado1);
+        request.setAttribute("result2", resultado2);
+        request.setAttribute("result3", resultado3);
         request.getRequestDispatcher("team1result.jsp").forward(request, response);
     }
     
