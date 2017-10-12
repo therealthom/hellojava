@@ -64,7 +64,15 @@ public class Team1Controller extends HttpServlet {
     }
     String reto2(String entrada) {
         String salida = "NotImplementedYet";
-        //TODO. 
+        //TODO
+        double numero = Double.parseDouble(entrada);
+        if (numero > 0) {
+            salida = "positivo";
+        } else if (numero < 0) {
+            salida = "negativo";
+        } else {
+            salida = "neutro";
+        }
         return salida;
     }
     String reto3(String entrada) {
