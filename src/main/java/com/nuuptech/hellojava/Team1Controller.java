@@ -31,6 +31,7 @@ public class Team1Controller extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         String entrada = request.getParameter("entrada");
+        System.out.println("ENTRADA -> " + entrada);
         request.setAttribute("result", entrada);
         response.sendRedirect("team1result.jsp");
     }
