@@ -64,7 +64,7 @@ public class Team1Controller extends HttpServlet {
     }
     String reto2(String entrada) {
         String salida = "NotImplementedYet";
-        //TODO
+        //TODO. 
         return salida;
     }
     String reto3(String entrada) {
