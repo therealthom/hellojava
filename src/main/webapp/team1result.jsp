@@ -16,8 +16,16 @@
         <br/>
         <table>
             <tr>
-                <td>Resultado: </td>
-                <td><%=request.getAttribute("result")%></td>
+                <td>Resultado Reto 1: </td>
+                <td><%=request.getAttribute("result1")%></td>
+            </tr>
+            <tr>
+                <td>Resultado Reto 2: </td>
+                <td><%=request.getAttribute("result2")%></td>
+            </tr>
+            <tr>
+                <td>Resultado Reto 3: </td>
+                <td><%=request.getAttribute("result3")%></td>
             </tr>
         </table>
         <br/>

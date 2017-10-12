@@ -16,9 +16,21 @@
         <form name="team1frm" action="/Team1Controller" method="POST">
             <table>
                 <tr>
-                    <td>Entrada:</td>
+                    <td>Reto 1 - Entrada:</td>
                     <td>
-                        <input name="entrada" type="text" value=""/>
+                        <input name="entrada1" type="text" value=""/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Reto 2 - Entrada:</td>
+                    <td>
+                        <input name="entrada2" type="text" value=""/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Reto 3 - Entrada:</td>
+                    <td>
+                        <input name="entrada3" type="text" value=""/>
                     </td>
                 </tr>
                 <tr>
