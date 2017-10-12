@@ -30,10 +30,18 @@ public class Team1Controller extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
+        
         String entrada = request.getParameter("entrada");
-        System.out.println("ENTRADA -> " + entrada);
-        request.setAttribute("result", entrada);
-        response.sendRedirect("team1result.jsp");
+        
+        String resultado = ":v"; //Ocupa esta variable para agregar el resultado        
+        //Agrega la magia!
+        
+        //Fin de la magia        
+        System.out.println("Entrada -> " + entrada);
+        System.out.println("Resultado -> " + resultado);
+        
+        request.setAttribute("result", resultado);
+        request.getRequestDispatcher("team1result.jsp").forward(request, response);
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
