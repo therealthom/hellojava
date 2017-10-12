@@ -8,7 +8,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Dirigete a la página que corresponde a tu equipo!</h1>
+        <h1>Dirigete al link que te corresponde!</h1>
         <br/>
         <h3><a href="team1.jsp">team1</a></h3>
         <h3><a href="team2.jsp">team2</a></h3>
@@ -18,12 +18,5 @@
         <h3><a href="team6.jsp">team6</a></h3>
         <h3><a href="team7.jsp">team7</a></h3>
         <h3><a href="team8.jsp">team8</a></h3>
-        <h3><a href="team9.jsp">team9</a></h3>
-        <h3><a href="team10.jsp">team10</a></h3>
-        <h3><a href="team11.jsp">team11</a></h3>
-        <h3><a href="team12.jsp">team12</a></h3>
-        <h3><a href="team13.jsp">team13</a></h3>
-        <h3><a href="team14.jsp">team14</a></h3>
-        <h3><a href="team15.jsp">team15</a></h3>
     </body>
 </html>
