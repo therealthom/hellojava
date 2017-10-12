@@ -34,8 +34,8 @@ public class Team4Controller extends HttpServlet {
                 
         //Agrega la magia!       
         String resultado = reto1(entrada);
-        //String resultado = reto1(entrada);
-        //String resultado = reto1(entrada);
+        //String resultado = reto2(entrada);
+        //String resultado = reto3(entrada);
         
         //Fin de la magia        
         System.out.println("Entrada -> " + entrada);
