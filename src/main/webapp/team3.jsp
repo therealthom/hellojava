@@ -28,4 +28,7 @@
                 </tr>
             </table>
         </form>
+        <br/>
+        <br/>
+        <a href="index.jsp">Inicio</a>
 </html>
