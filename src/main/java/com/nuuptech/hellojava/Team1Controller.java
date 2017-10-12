@@ -78,6 +78,17 @@ public class Team1Controller extends HttpServlet {
     String reto3(String entrada) {
         String salida = "NotImplementedYet";
         //TODO
+        String[] tokens = entrada.split(" ");
+        double num1 = Double.parseDouble(tokens[0]);
+        double num2 = Double.parseDouble(tokens[1]);
+        String mayor;
+        if (num1 > num2) {
+            mayor = ""+num1;
+        } else if (num1 < num2) {
+            mayor = ""+num2;
+        } else {
+            mayor = "Iguales";
+        }
         return salida;
     }
 
