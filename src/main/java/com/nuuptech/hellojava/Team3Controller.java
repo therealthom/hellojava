@@ -30,23 +30,36 @@ public class Team3Controller extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        PrintWriter out = response.getWriter();
-        try {
-            /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet Team3Controller</title>");            
-            out.println("</head>");
-            out.println("<body>");
-            out.println("<h1>Servlet Team3Controller at " + request.getContextPath() + "</h1>");
-            out.println("</body>");
-            out.println("</html>");
-        } finally {
-            out.close();
-        }
+        String entrada = request.getParameter("entrada");
+                
+        //Agrega la magia!       
+        String resultado = reto1(entrada);
+        //String resultado = reto1(entrada);
+        //String resultado = reto1(entrada);
+        
+        //Fin de la magia        
+        System.out.println("Entrada -> " + entrada);
+        System.out.println("Resultado -> " + resultado);
+        
+        request.setAttribute("result", resultado);
+        request.getRequestDispatcher("team1result.jsp").forward(request, response);
     }
-
+    
+    String reto1(String entrada) {
+        String salida = "NotImplementedYet";
+        //TODO
+        return salida;
+    }
+    String reto2(String entrada) {
+        String salida = "NotImplementedYet";
+        //TODO
+        return salida;
+    }
+    String reto3(String entrada) {
+        String salida = "NotImplementedYet";
+        //TODO
+        return salida;
+    }
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.

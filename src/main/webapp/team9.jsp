@@ -12,6 +12,20 @@
         <title>Workshop-CUI</title>
     </head>
     <body>
-        <h1>TEAM 8</h1>
-    </body>
+        <h1>TEAM 9</h1>
+        <form name="team1frm" action="/Team1Controller" method="POST">
+            <table>
+                <tr>
+                    <td>Entrada:</td>
+                    <td>
+                        <input name="entrada" type="text" value=""/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">                        
+                        <input type="submit" value="Enviar"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
 </html>

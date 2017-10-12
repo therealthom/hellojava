@@ -13,5 +13,19 @@
     </head>
     <body>
         <h1>TEAM 5</h1>
-    </body>
+        <form name="team1frm" action="/Team1Controller" method="POST">
+            <table>
+                <tr>
+                    <td>Entrada:</td>
+                    <td>
+                        <input name="entrada" type="text" value=""/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">                        
+                        <input type="submit" value="Enviar"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
 </html>

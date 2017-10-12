@@ -32,9 +32,11 @@ public class Team1Controller extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         
         String entrada = request.getParameter("entrada");
-        
-        String resultado = ":v"; //Ocupa esta variable para agregar el resultado        
-        //Agrega la magia!
+                
+        //Agrega la magia!       
+        String resultado = reto1(entrada);
+        //String resultado = reto1(entrada);
+        //String resultado = reto1(entrada);
         
         //Fin de la magia        
         System.out.println("Entrada -> " + entrada);
@@ -42,6 +44,22 @@ public class Team1Controller extends HttpServlet {
         
         request.setAttribute("result", resultado);
         request.getRequestDispatcher("team1result.jsp").forward(request, response);
+    }
+    
+    String reto1(String entrada) {
+        String salida = "NotImplementedYet";
+        //TODO
+        return salida;
+    }
+    String reto2(String entrada) {
+        String salida = "NotImplementedYet";
+        //TODO
+        return salida;
+    }
+    String reto3(String entrada) {
+        String salida = "NotImplementedYet";
+        //TODO
+        return salida;
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

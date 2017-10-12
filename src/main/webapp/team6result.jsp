@@ -12,6 +12,15 @@
         <title>Workshop-CUI</title>
     </head>
     <body>
-        <h1>TEAM 6</h1>
-    </body>
+        <h1>TEAM 6 Result</h1>
+        <br/>
+        <table>
+            <tr>
+                <td>Resultado: </td>
+                <td><%=request.getAttribute("result")%></td>
+            </tr>
+        </table>
+        <br/>
+        <br/>
+        <a href="team1.jsp">Regresar</a>
 </html>
