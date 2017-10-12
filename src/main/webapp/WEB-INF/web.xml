@@ -32,6 +32,10 @@
         <servlet-name>Team8Controller</servlet-name>
         <servlet-class>com.nuuptech.hellojava.Team8Controller</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Team9Controller</servlet-name>
+        <servlet-class>com.nuuptech.hellojava.Team9Controller</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Team1Controller</servlet-name>
         <url-pattern>/Team1Controller</url-pattern>
@@ -63,6 +67,10 @@
     <servlet-mapping>
         <servlet-name>Team8Controller</servlet-name>
         <url-pattern>/Team8Controller</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Team9Controller</servlet-name>
+        <url-pattern>/Team9Controller</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
