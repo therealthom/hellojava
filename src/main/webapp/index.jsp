@@ -39,31 +39,10 @@
             Es positivo<br/>
         </p>
         <br/>
-        <h2>Reto 3:</h2>
-        <p>
-            En este reto deberás programar un algoritmo que solicite al usuario ingresar 2 números enteros, <br/>
-            y determine cual es el mayor o en caso de ser iguales que imprima el texto "Iguales".<br/><br/>
-
-            Entradas de ejemplo<br/><br/>
-            1 159<br/>
-            327 327<br/>
-            83 31<br/><br/>
-            Salidas de ejemplo<br/><br/>
-            159<br/>
-            Iguales<br/>
-            83<br/>
-        </p>
-        <br/>
         <h1>Veamos si lo lograste...</h1>
         <br/>
         <a href="team1.jsp">team1</a><br/>
         <a href="team2.jsp">team2</a><br/>
         <a href="team3.jsp">team3</a><br/>
-        <a href="team4.jsp">team4</a><br/>
-        <a href="team5.jsp">team5</a><br/>
-        <a href="team6.jsp">team6</a><br/>
-        <a href="team7.jsp">team7</a><br/>
-        <a href="team8.jsp">team8</a><br/>
-        <a href="team9.jsp">team9</a><br/>
     </body>
 </html>
