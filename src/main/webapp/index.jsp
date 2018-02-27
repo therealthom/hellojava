@@ -5,44 +5,15 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>CUI-Workshop</title>
+        <title>Hello, Openshift!</title>
     </head>
     <body>
-        <h1>Aquí los retos!</h1>
+        <h1>Hello, Openshift!</h1>
         <br/>
-        <h2>Reto 1:</h2>
+        <h2>Version 1.0</h2>
         <p>
-            En este reto tienes que hacer un programa que, dado un número de horas, transforme el valor en segundos: <br/><br/>
-
-            Entradas de ejemplo: <br/><br/>
-            1 <br/>
-            29 <br/>
-            305 <br/><br/>
-            Salidas de ejemplo <br/><br/>
-            3600 <br/>
-            104400 <br/>
-            1098000 <br/>
+            Esta es una aplicación de ejemplo.<br/>
         </p>
-        <br/>
-        <h2>Reto 2:</h2>
-        <p>
-            Un número real es positivo si no es 0 ni un número negativo. El número 0 se considera un número neutro.<br/>
-            En este reto deberás programar un algoritmo para calcular si un número es positivo, negativo o neutro.<br/><br/>
-
-            Entradas de ejemplo<br/><br/>
-            -1<br/>
-            0<br/>
-            1<br/><br/>
-            Salidas de ejemplo<br/><br/>
-            Es negativo<br/>
-            Es neutro<br/>
-            Es positivo<br/>
-        </p>
-        <br/>
-        <h1>Veamos si lo lograste...</h1>
-        <br/>
-        <a href="team1.jsp">team1</a><br/>
-        <a href="team2.jsp">team2</a><br/>
-        <a href="team3.jsp">team3</a><br/>
+        <br/>        
     </body>
 </html>
