@@ -8,7 +8,7 @@
         <title>Hello, Openshift!</title>
     </head>
     <body>
-        <h1>Hello, Openshift!</h1>
+        <h1>Hola, Openshift!</h1>
         <br/>
         <h2>Version 1.0</h2>
         <p>
