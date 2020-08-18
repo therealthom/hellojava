@@ -5,10 +5,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Hola, Openshift!</title>
+        <title>Hola, Openshift</title>
     </head>
     <body>
-        <h1>Hola, Openshift!</h1>
+        <h1>Hola, Openshift</h1>
         <br/>
         <h2>Version 1.0</h2>
         <p>
