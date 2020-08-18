@@ -10,9 +10,9 @@
     <body>
         <h1>Hello, Openshift!</h1>
         <br/>
-        <h2>Version 6.0</h2>
+        <h2>Version 1.0</h2>
         <p>
-            Esta es una aplicación de ejemplo. Fin de la demo.<br/>
+            Demo.<br/>
         </p>
         <br/>        
     </body>
