@@ -10,7 +10,7 @@
     <body>
         <h1>Hola, Openshift</h1>
         <br/>
-        <h2>Version 1.1</h2>
+        <h2>Version 1.0</h2>
         <p>
             Demo.<br/>
         </p>
